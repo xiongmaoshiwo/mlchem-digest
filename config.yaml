@@ -17,6 +17,6 @@ chem_keywords:
   - coating
   - electrodeposition
 
-max_results: 60          # 各ソースの最大取得件数（上限）
-lookback_hours: 30       # 直近何時間を対象にするか（9時実行で前日分を拾いやすい設定）
+max_results: 200          # 各ソースの最大取得件数（上限）
+lookback_hours: 300       # 直近何時間を対象にするか（9時実行で前日分を拾いやすい設定）
 min_items_to_email: 1    # これ未満なら送信スキップ（0で必ず送信）
